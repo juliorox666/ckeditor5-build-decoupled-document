@@ -99,6 +99,7 @@
     }
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-export-pdf": "0.0.4"
+    "@ckeditor/ckeditor5-export-pdf": "0.0.4",
+    "@ckeditor/ckeditor5-page-break": "^20.0.0"
   }
 }

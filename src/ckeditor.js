@@ -38,6 +38,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import ExportPdf from '@ckeditor/ckeditor5-export-pdf/src/exportpdf';
+import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak';
 
 export default class DecoupledEditor extends DecoupledEditorBase {}
 
@@ -45,6 +46,7 @@ export default class DecoupledEditor extends DecoupledEditorBase {}
 DecoupledEditor.builtinPlugins = [
 	Essentials,
 	ExportPdf,
+	PageBreak,
 	Alignment,
 	FontSize,
 	FontFamily,
@@ -110,7 +112,8 @@ DecoupledEditor.defaultConfig = {
 			'mediaEmbed',
 			'|',
 			'undo',
-			'redo'
+			'redo',
+			'pageBreak'
 		]
 	},
 	image: {
